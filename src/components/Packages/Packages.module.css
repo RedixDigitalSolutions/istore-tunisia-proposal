@@ -1,0 +1,205 @@
+.packages {
+    padding: 120px 1.5rem;
+    background: #ffffff;
+}
+
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.header {
+    text-align: center;
+    margin-bottom: 4rem;
+}
+
+.header h2 {
+    font-size: 3rem;
+    font-weight: 600;
+    color: #1d1d1f;
+    margin-bottom: 1rem;
+    letter-spacing: -0.015em;
+}
+
+.header p {
+    font-size: 1.1875rem;
+    color: #86868b;
+    font-weight: 400;
+}
+
+.packagesGrid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    gap: 1.5rem;
+    margin-bottom: 3rem;
+}
+
+.packageCard {
+    background: rgba(255, 255, 255, 0.8);
+    backdrop-filter: saturate(180%) blur(20px);
+    -webkit-backdrop-filter: saturate(180%) blur(20px);
+    border-radius: 24px;
+    padding: 2.5rem;
+    border: 1px solid rgba(0, 0, 0, 0.06);
+    transition: all 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+    position: relative;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.04);
+}
+
+.packageCard:hover {
+    box-shadow: 0 12px 40px rgba(0, 0, 0, 0.08);
+    border-color: rgba(0, 113, 227, 0.2);
+}
+
+.popular {
+    border: 2px solid #0071e3;
+    transform: scale(1.05);
+}
+
+.popularBadge {
+    position: absolute;
+    top: -12px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: #0071e3;
+    color: white;
+    padding: 0.5rem 1.5rem;
+    border-radius: 50px;
+    font-size: 0.6875rem;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+}
+
+.packageHeader {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.iconWrapper {
+    width: 64px;
+    height: 64px;
+    background: linear-gradient(135deg, #0071e3 0%, #0077ed 100%);
+    border-radius: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    margin: 0 auto 1rem;
+    box-shadow: 0 8px 24px rgba(0, 113, 227, 0.3);
+}
+
+.packageHeader h3 {
+    font-size: 1.625rem;
+    font-weight: 600;
+    color: #1d1d1f;
+    letter-spacing: -0.01em;
+}
+
+.pricing {
+    text-align: center;
+    margin-bottom: 2rem;
+    padding: 1.5rem 0;
+    border-top: 1px solid rgba(0, 0, 0, 0.06);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.06);
+}
+
+.amount {
+    font-size: 3rem;
+    font-weight: 600;
+    color: #1d1d1f;
+    letter-spacing: -0.02em;
+}
+
+.currency {
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: #0071e3;
+    margin-left: 0.5rem;
+}
+
+.period {
+    font-size: 1rem;
+    color: #86868b;
+    margin-left: 0.25rem;
+}
+
+.features {
+    list-style: none;
+    padding: 0;
+    margin-bottom: 2rem;
+}
+
+.features li {
+    display: flex;
+    align-items: flex-start;
+    gap: 0.75rem;
+    padding: 0.625rem 0;
+    font-size: 0.9375rem;
+    color: #1d1d1f;
+}
+
+.features li svg {
+    color: #34c759;
+    flex-shrink: 0;
+    margin-top: 2px;
+}
+
+.ctaButton {
+    display: block;
+    width: 100%;
+    padding: 1rem;
+    background: #0071e3;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 980px;
+    font-size: 1.0625rem;
+    font-weight: 400;
+    transition: all 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+}
+
+.ctaButton:hover {
+    background: #0077ed;
+}
+
+.note {
+    text-align: center;
+    padding: 2rem;
+    background: rgba(0, 113, 227, 0.05);
+    border-radius: 16px;
+}
+
+.note p {
+    font-size: 1.0625rem;
+    color: #1d1d1f;
+    font-weight: 500;
+    margin: 0;
+}
+
+@media (max-width: 1024px) {
+    .packagesGrid {
+        grid-template-columns: 1fr;
+    }
+
+    .popular {
+        transform: scale(1);
+    }
+}
+
+@media (max-width: 768px) {
+    .packages {
+        padding: 80px 1rem;
+    }
+
+    .header h2 {
+        font-size: 2rem;
+    }
+
+    .packageCard {
+        padding: 2rem;
+    }
+
+    .amount {
+        font-size: 2.5rem;
+    }
+}

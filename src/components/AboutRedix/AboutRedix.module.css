@@ -1,0 +1,124 @@
+.about {
+    padding: 120px 1.5rem;
+    background: #ffffff;
+    position: relative;
+}
+
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.header {
+    text-align: center;
+    max-width: 800px;
+    margin: 0 auto 5rem;
+}
+
+.subtitle {
+    font-size: 1.0625rem;
+    color: #86868b;
+    font-weight: 400;
+    margin-bottom: 0.5rem;
+    letter-spacing: 0.01em;
+}
+
+.title {
+    font-size: 3rem;
+    font-weight: 600;
+    color: #1d1d1f;
+    margin-bottom: 1rem;
+    letter-spacing: -0.015em;
+}
+
+.tagline {
+    font-size: 1.625rem;
+    font-weight: 500;
+    color: #0071e3;
+    margin-bottom: 1.5rem;
+    letter-spacing: -0.01em;
+}
+
+.description {
+    font-size: 1.1875rem;
+    line-height: 1.6;
+    color: #86868b;
+    font-weight: 400;
+}
+
+.servicesGrid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 1.5rem;
+}
+
+.serviceCard {
+    background: rgba(255, 255, 255, 0.6);
+    backdrop-filter: saturate(180%) blur(20px);
+    -webkit-backdrop-filter: saturate(180%) blur(20px);
+    border: 1px solid rgba(0, 0, 0, 0.06);
+    border-radius: 24px;
+    padding: 2.5rem;
+    transition: all 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.04);
+}
+
+.serviceCard:hover {
+    background: rgba(255, 255, 255, 0.8);
+    box-shadow: 0 12px 40px rgba(0, 0, 0, 0.08);
+    border-color: rgba(0, 113, 227, 0.2);
+}
+
+.iconWrapper {
+    width: 64px;
+    height: 64px;
+    background: linear-gradient(135deg, #0071e3 0%, #0077ed 100%);
+    border-radius: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    margin-bottom: 1.5rem;
+    box-shadow: 0 8px 24px rgba(0, 113, 227, 0.3);
+}
+
+.serviceCard h3 {
+    font-size: 1.375rem;
+    font-weight: 600;
+    color: #1d1d1f;
+    margin-bottom: 0.75rem;
+    letter-spacing: -0.01em;
+}
+
+.serviceCard p {
+    font-size: 1rem;
+    color: #86868b;
+    line-height: 1.6;
+    font-weight: 400;
+}
+
+@media (max-width: 768px) {
+    .about {
+        padding: 80px 1rem;
+    }
+
+    .title {
+        font-size: 2rem;
+    }
+
+    .tagline {
+        font-size: 1.25rem;
+    }
+
+    .description {
+        font-size: 1rem;
+    }
+
+    .servicesGrid {
+        grid-template-columns: 1fr;
+    }
+
+    .serviceCard {
+        padding: 2rem;
+    }
+}

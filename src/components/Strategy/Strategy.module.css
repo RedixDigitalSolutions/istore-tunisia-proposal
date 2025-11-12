@@ -1,0 +1,260 @@
+.strategy {
+    padding: 120px 1.5rem;
+    background: #f5f5f7;
+}
+
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.header {
+    text-align: center;
+    margin-bottom: 4rem;
+}
+
+.header h2 {
+    font-size: 3rem;
+    font-weight: 600;
+    color: #1d1d1f;
+    margin-bottom: 1rem;
+    letter-spacing: -0.015em;
+}
+
+.header p {
+    font-size: 1.1875rem;
+    color: #86868b;
+    font-weight: 400;
+}
+
+.platformsSection {
+    margin-bottom: 4rem;
+}
+
+.platformsSection h3 {
+    font-size: 1.75rem;
+    font-weight: 600;
+    color: #1d1d1f;
+    text-align: center;
+    margin-bottom: 2.5rem;
+    letter-spacing: -0.01em;
+}
+
+.platformsGrid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 1.5rem;
+}
+
+.platformCard {
+    background: rgba(255, 255, 255, 0.8);
+    backdrop-filter: saturate(180%) blur(20px);
+    -webkit-backdrop-filter: saturate(180%) blur(20px);
+    padding: 2.5rem;
+    border-radius: 24px;
+    border: 1px solid rgba(0, 0, 0, 0.06);
+    text-align: center;
+    transition: all 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.04);
+}
+
+.platformCard:hover {
+    background: rgba(255, 255, 255, 0.95);
+    box-shadow: 0 12px 40px rgba(0, 0, 0, 0.08);
+}
+
+.platformIcon {
+    width: 80px;
+    height: 80px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    margin: 0 auto 1.5rem;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15);
+}
+
+.platformCard h4 {
+    font-size: 1.375rem;
+    font-weight: 600;
+    color: #1d1d1f;
+    margin-bottom: 0.75rem;
+    letter-spacing: -0.01em;
+}
+
+.platformCard p {
+    font-size: 1rem;
+    color: #86868b;
+    font-weight: 400;
+}
+
+.metaSection {
+    background: rgba(255, 255, 255, 0.8);
+    backdrop-filter: saturate(180%) blur(20px);
+    -webkit-backdrop-filter: saturate(180%) blur(20px);
+    padding: 3rem;
+    border-radius: 24px;
+    border: 1px solid rgba(0, 0, 0, 0.06);
+    margin-bottom: 4rem;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.04);
+}
+
+.metaHeader {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.75rem;
+    margin-bottom: 1rem;
+    color: #0071e3;
+}
+
+.metaHeader h3 {
+    font-size: 1.75rem;
+    font-weight: 600;
+    color: #1d1d1f;
+    letter-spacing: -0.01em;
+}
+
+.metaDescription {
+    text-align: center;
+    font-size: 1.0625rem;
+    color: #86868b;
+    max-width: 700px;
+    margin: 0 auto 2.5rem;
+    line-height: 1.6;
+}
+
+.metaGrid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 1.5rem;
+}
+
+.metaCard {
+    display: flex;
+    align-items: flex-start;
+    gap: 1rem;
+    padding: 1.5rem;
+    background: rgba(0, 113, 227, 0.05);
+    border-radius: 16px;
+    transition: all 0.3s ease;
+}
+
+.metaCard:hover {
+    background: rgba(0, 113, 227, 0.1);
+    transform: translateX(5px);
+}
+
+.metaIcon {
+    width: 48px;
+    height: 48px;
+    background: linear-gradient(135deg, #0071e3 0%, #0077ed 100%);
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    flex-shrink: 0;
+}
+
+.metaCard h4 {
+    font-size: 1.125rem;
+    font-weight: 600;
+    color: #1d1d1f;
+    margin-bottom: 0.25rem;
+    letter-spacing: -0.01em;
+}
+
+.metaCard p {
+    font-size: 0.9375rem;
+    color: #86868b;
+    font-weight: 400;
+}
+
+.opportunitiesSection h3 {
+    font-size: 1.75rem;
+    font-weight: 600;
+    color: #1d1d1f;
+    text-align: center;
+    margin-bottom: 1rem;
+    letter-spacing: -0.01em;
+}
+
+.opportunitiesSubtitle {
+    text-align: center;
+    font-size: 1.0625rem;
+    color: #86868b;
+    margin-bottom: 2.5rem;
+}
+
+.opportunitiesGrid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(380px, 1fr));
+    gap: 1.5rem;
+}
+
+.opportunityCard {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    padding: 1.5rem;
+    background: rgba(255, 255, 255, 0.8);
+    backdrop-filter: saturate(180%) blur(20px);
+    -webkit-backdrop-filter: saturate(180%) blur(20px);
+    border-radius: 16px;
+    border: 1px solid rgba(0, 0, 0, 0.06);
+    transition: all 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.04);
+}
+
+.opportunityCard:hover {
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.08);
+    border-color: rgba(0, 113, 227, 0.2);
+}
+
+.opportunityNumber {
+    width: 40px;
+    height: 40px;
+    background: linear-gradient(135deg, #0071e3 0%, #0077ed 100%);
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 1.125rem;
+    font-weight: 600;
+    flex-shrink: 0;
+}
+
+.opportunityCard p {
+    font-size: 1rem;
+    color: #1d1d1f;
+    font-weight: 500;
+    margin: 0;
+}
+
+@media (max-width: 768px) {
+    .strategy {
+        padding: 80px 1rem;
+    }
+
+    .header h2 {
+        font-size: 2rem;
+    }
+
+    .platformsGrid,
+    .metaGrid,
+    .opportunitiesGrid {
+        grid-template-columns: 1fr;
+    }
+
+    .metaSection {
+        padding: 2rem;
+    }
+
+    .metaCard {
+        flex-direction: column;
+        text-align: center;
+    }
+}
