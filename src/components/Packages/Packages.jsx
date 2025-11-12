@@ -12,15 +12,11 @@ const Packages = () => {
             features: [
                 'Professional ads manager',
                 '1 video shooting session',
-                '2 videos with simple editing',
-                '4 animated posts',
-                'Content roadmap',
-                'Meta ads sponsoring $20',
-                'Scripting + video ideas',
-                'Social media management',
+                '2 videos editing',
+                '4 animated posts',     
+                'Meta ads sponsoring $20', 
                 'Marketing strategy',
                 'Posting times analysis',
-                'Monitoring & reporting'
             ]
         },
         {
