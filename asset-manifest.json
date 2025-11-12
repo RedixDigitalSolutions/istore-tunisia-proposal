@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/istore-tunisia-proposal/static/css/main.12b6153e.css",
+    "main.js": "/istore-tunisia-proposal/static/js/main.cb8b42fd.js",
+    "index.html": "/istore-tunisia-proposal/index.html",
+    "main.12b6153e.css.map": "/istore-tunisia-proposal/static/css/main.12b6153e.css.map",
+    "main.cb8b42fd.js.map": "/istore-tunisia-proposal/static/js/main.cb8b42fd.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.12b6153e.css",
+    "static/js/main.cb8b42fd.js"
+  ]
+}
